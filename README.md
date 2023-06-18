@@ -66,3 +66,13 @@ poetry publish
 ```
 pip install pec_model_master
 ```
+
+## Tox y Github actions
+Dentro del archivo [tox.ini](tox.ini) se encuentra la configuración para correr automaticamente los test del proyecto 
+en un nuevo entorno virtual con Tox.
+
+Dentro del archivo [tests.yml](.github/workflows/tests.yml) se encuentra la configuración para ejecutar automaticamente 
+los test en distintos sistemas operativos con la versión python 3.9 cada vez que se realice un push o un pull request 
+al repositorio de Github.
+
+![img.png](images/img.png)
