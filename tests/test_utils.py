@@ -2,7 +2,7 @@ from unittest import TestCase
 
 import pandas as pd
 
-from pec_pipelines.feature_engineering.utils import drop_columns, lower_names
+from pec_model_master.pec_pipelines.feature_engineering.utils import drop_columns, lower_names
 
 
 class TestUtils(TestCase):
