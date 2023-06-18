@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pec_model_master"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
 authors = ["irene.casas <irene.casas@aplazame.com>"]
 
